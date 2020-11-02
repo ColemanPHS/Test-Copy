@@ -2,9 +2,8 @@ class Main
 {
   public static void main(String[] args)
   {
-    boolean a = true;
-    boolean b = false;
+    UnitTests tests = new UnitTests();
 
-    System.out.println((a && (b || !a)) == a && b);
+    tests.testCase();
   }
 }
